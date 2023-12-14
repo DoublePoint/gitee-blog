@@ -29,7 +29,7 @@ module.exports = {
   // gitee oauth
   giteeOauthOptions: {
     baseOauthUrl: 'https://gitee.com/oauth',
-    clientId: '5469618e0b5d3fb058336b82c907bc9459f3c727ad1eb060325a803d91209a52',
+    clientId: '123',
     clientSecret: 'cb90ca23bd37be8d8a1aa53551db8cef4a5b148babef6aa78f3ad58e778c0abd',
     redirectUri: 'https://zclzone.gitee.io/redirect'
   },
