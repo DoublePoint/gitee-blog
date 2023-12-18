@@ -29,14 +29,14 @@ module.exports = {
   // gitee oauth
   giteeOauthOptions: {
     baseOauthUrl: 'https://gitee.com/oauth',
-    clientId: '123',
-    clientSecret: 'cb90ca23bd37be8d8a1aa53551db8cef4a5b148babef6aa78f3ad58e778c0abd',
-    redirectUri: 'https://zclzone.gitee.io/redirect'
+    clientId: '22303a9819abc40353e7f2c4593242a1e808468b56aede305e8ef4df1ce4ecf5',
+    clientSecret: '53ba5df09b256b5197beb4b3bcfab4924e14a217eaabcab1f8aa94b172beb70f',
+    redirectUri: 'https://doublepoint.gitee.io/gitee-blog'
   },
   // gitee api
   giteeApiOptions: {
     baseApiURL: 'https://gitee.com/api/v5',
-    owner: 'zclzone',
+    owner: 'DoublePoint',
     repo: 'gitee-db'
   }
 }
