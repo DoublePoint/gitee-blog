@@ -1,15 +1,15 @@
 module.exports = {
   // 页面title
-  title: '奇思笔记',
+  title: 'IOT 知识库',
   // 发布pages的仓库名（博客部署文件存放的仓库名）
   pagesRepo: 'blog',
   // 网站配置信息
   siteOptions: {
-    title: '奇思笔记',
-    subtitle: '孤光自照，肝胆皆冰雪',
-    author: '张传龙',
+    title: 'IOT 知识库',
+    subtitle: '免费 知识库',
+    author: 'Liulei',
     description: '前端全栈开发者',
-    github: 'https://github.com/zclzone/blog',
+    github: 'https://github.com/doublepoint/blog',
     navMenu: {
       'http://www.qszone.com': '首页', //外链
       '/article': '文章',

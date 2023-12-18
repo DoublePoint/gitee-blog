@@ -104,6 +104,7 @@ export default {
     }
   },
   mounted() {
+    alert(1)
     this.getData()
   },
   methods: {

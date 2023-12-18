@@ -9,6 +9,7 @@ import { getAccessToken, getOauthUrl } from '@/utils/oauth-util'
 const whiteList = ['/', '/index', '/index/article', '/index/works', '/index/about']
 
 router.beforeEach(async (to, from, next) => {
+  debugger
   if (whiteList.indexOf(to.path) !== -1) {
     next()
     return

@@ -46,7 +46,7 @@ const routes = [
   {
     path: '/admin',
     component: _ => import('@/layout/admin'),
-    redirect: '/admin/list',
+    // redirect: '/admin/list',
     meta: {
       title: '博客管理'
     },
@@ -99,6 +99,7 @@ const router = new VueRouter({
 
 // 路由钩子修改页面title
 router.beforeEach((to, from, next) => {
+  debugger
   if (to.meta && to.meta.title) {
     setPageTitle(to.meta.title)
   }
