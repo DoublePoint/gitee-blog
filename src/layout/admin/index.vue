@@ -24,7 +24,7 @@ import AppHeader from './components/app-header'
 import AppMain from './components/app-main'
 export default {
   async beforeRouteEnter(to, from, next) {
-    alert(1)
+    debugger
     const token = getToken()
     if (token) {
       //每次路由改变延长Cookie过期时间
